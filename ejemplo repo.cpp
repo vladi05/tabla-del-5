@@ -5,12 +5,18 @@ int main () {
 int numero;
     cout << "ingrese un numero: ";
     cin >> numero;
+    if ( numero <= 0){
+        cout << "ingrese un numero mayor a 0";
 
-for (int i = 1; i <= 10; i++){
+    } else {
+    for (int i = 1; i <= 10; i++){
 
     cout << "el numero " << " x " << i << " = " << numero * i << endl;
 
 }
+    }
+
+
 
 
 
